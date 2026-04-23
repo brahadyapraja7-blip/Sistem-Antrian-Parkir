@@ -21,6 +21,9 @@ Pada awalnya antrian berada dalam keadaan kosong atau tidak ada satupun elemen d
 ## III. Desain Sistem dan Implementasi
 Sistem yang dibuat merupakan sistem antrian parkir sederhana yang menerapkan konsep Queue (antrian) dengan prinsip FIFO (First In First Out), yaitu kendaraan yang pertama masuk akan menjadi kendaraan pertama yang keluar. Pada sistem ini, struktur data yang digunakan adalah array (list Python) untuk menyimpan data kendaraan berupa nomor plat. Sistem dirancang berbasis menu interaktif yang memungkinkan pengguna memilih operasi yang diinginkan. Berikut dalam bentuk pseucodenya:
 Berdasarkan pseucode tersebut, alur kerja sistem adalah:
+
+<img width="565" height="729" alt="image" src="https://github.com/user-attachments/assets/d9374fe0-9897-4c5e-b5a5-31e37a4057bc" />
+
 1. Program dimulai,
 2. Sistem menampilkan menu pilihan,
 3. Pengguna memilih menu,
