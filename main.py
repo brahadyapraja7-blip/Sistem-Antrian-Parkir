@@ -37,6 +37,7 @@ def display():
             print(f"{i+1}. {kendaraan}")
     else:
         print("Parkiran kosong!")
+        
 # Menu program
 while True:
     print("\n=== SISTEM ANTRIAN PARKIR ===")
