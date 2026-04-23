@@ -37,3 +37,33 @@ def display():
             print(f"{i+1}. {kendaraan}")
     else:
         print("Parkiran kosong!")
+# Menu program
+while True:
+    print("\n=== SISTEM ANTRIAN PARKIR ===")
+    print("1. Kendaraan Masuk (Enqueue)")
+    print("2. Kendaraan Keluar (Dequeue)")
+    print("3. Lihat Kendaraan Depan (Peek)")
+    print("4. Tampilkan Antrian (Display)")
+    print("5. Keluar")
+
+    pilihan = input("Pilih menu: ")
+
+    if pilihan == "1":
+        kendaraan = input("Masukkan plat nomor kendaraan: ")
+        enqueue(kendaraan)
+
+    elif pilihan == "2":
+        dequeue()
+
+    elif pilihan == "3":
+        peek()
+
+    elif pilihan == "4":
+        display()
+
+    elif pilihan == "5":
+        print("Program selesai.")
+        break
+
+    else:
+        print("Pilihan tidak valid!")
