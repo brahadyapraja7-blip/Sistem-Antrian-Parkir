@@ -31,7 +31,8 @@ Berdasarkan pseucode tersebut, alur kerja sistem adalah:
 8. Jika memilih Display, sistem menampilkan seluruh antrian
 9. Jika memilih Keluar, program berhenti
 10. Setelah proses selesai, sistem kembali ke menu utama,
-11. Program berakhir saat pengguna memilih keluar.
+11. Program berakhir saat pengguna memilih keluar
+
 Sistem menggunakan variabel antrian parkir untuk menyimpan data kendaraan serta kapasitas untuk membatasi jumlah kendaraan dalam parkiran. Operasi yang digunakan pada program ini merupakan operasi queue dengan fungsi sebagai berikut:
 1. Enqueue (Tambah Kendaraan)
 Fungsi ini digunakan untuk menambahkan kendaraan ke dalam antrian parkir.
