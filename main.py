@@ -21,3 +21,19 @@ def dequeue():
         print(f"Kendaraan {keluar} keluar dari parkiran.")
     else:
         print("Parkiran kosong!")
+
+# Peek (lihat kendaraan paling depan)
+def peek():
+    if len(antrian_parkir) > 0:
+        print(f"Kendaraan paling depan: {antrian_parkir[0]}")
+    else:
+        print("Parkiran kosong!")
+
+# Display (tampilkan seluruh antrian)
+def display():
+    if len(antrian_parkir) > 0:
+        print("Antrian parkir saat ini:")
+        for i, kendaraan in enumerate(antrian_parkir):
+            print(f"{i+1}. {kendaraan}")
+    else:
+        print("Parkiran kosong!")
